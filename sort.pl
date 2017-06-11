@@ -5,7 +5,6 @@ for($i=0;$i<100000;$i++) {
 }
 
 #&pr();
-printf("Start\n");
 &qsort(\@LIST,0,scalar(@LIST)-1);
 #&pr();
 

@@ -1,6 +1,5 @@
 #! /usr/bin/ruby
 
-
 def pr(list)
   printf("======================\n")
   list.each do |no|
@@ -50,7 +49,6 @@ def sort(list,s,e)
     sort(list,ep,e)
   end
 end
-
 
 #list = [ 10,9,8,7,6,5,4,3,2,1 ]
 list = []
